@@ -10,8 +10,12 @@
     $.getJSON("../Scripts/core/json/paragraphs.json", function(data) {
       $.each(data, function(key, val) {
         $("#myDetails").append("<p>" + val + "</p>");
+
+        ///Adding to array the data from .json file
+
+        //Array for storing data to .json file
         let objectjson = {};
-        objectson = JSON.parse(iabile.responseText);
+        objectson = JSON.parse(data.responseText);
       });
     });
   }
