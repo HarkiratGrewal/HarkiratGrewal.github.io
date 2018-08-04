@@ -1,0 +1,31 @@
+{
+  "name": "comp125-s2018-lesson5a",
+  "version": "1.0.0",
+  "description": "demo project for comp125",
+  "main": "index.js",
+  "scripts": {
+        "build": "babel Scripts -d dist"
+       },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CentennialCollege/COMP125-S2018-Lesson5A.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CentennialCollege/COMP125-S2018-Lesson5A/issues"
+  },
+  "homepage": "https://github.com/CentennialCollege/COMP125-S2018-Lesson5A#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^4.1.0",
+    "@types/jquery": "^3.3.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

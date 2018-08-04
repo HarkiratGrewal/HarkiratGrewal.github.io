@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Displaying all content to about page-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>COMP125 - About</title>
+  <!-- CSS Section -->
+  <!-- CSS Section -->
+  <!--
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  -->
+  <link rel="stylesheet" href="./Content/bootstrap-cerulean.min.css">
+  <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./Content/about.css">
+</head>
+
+<body>
+
+  <!--Inserting data of header.html here-->
+  <header></header>
+
+
+  <!--My image-->
+  <!-- Trigger the Modal -->
+  <div id="caption">
+    <table id="table">
+      <tr>
+        <div id="img">
+          <td>
+            <img id="myImg" src="./Assets/images/myImage.jpeg" alt="Snow" style="width:100%;max-width:300px">
+          </td>
+          <td>
+            <img id="myImg" src="./Assets/images/myImage2.jpeg" alt="Snow" style="width:100%;max-width:300px">
+          </td>
+        </div>
+      </tr>
+    </table>
+  </div>
+  <div class="zoom"></div>
+  </br>
+  </br>
+  <div id="myModal" class="modal">
+
+    <span class="close">&times;</span>
+
+    <img class="modal-content" id="img01">
+
+    <div id="caption"></div>
+  </div>
+  <div id="jumbotron">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <h1 class="display-4">Got to know me more</h1>
+    <p class="lead">Something about myself: </p>
+    <hr class="my-4">
+    <p id="paragraph" class="content"></p>
+    <p class="content">I am very aspired person and very passionate to learn new things. I have been always interested in doing work on my own
+      and love to help others as much as possible.</p>
+    <p class="content">Things I love to do:</p>
+    <ul id="myFavouriteThings">
+    </ul>
+
+    <ul id="myDetails"></ul>
+    <p id="paragraph1"></p>
+    <p id="paragraph2"></p>
+    <p id="paragraph3"></p>
+  </div>
+
+  <!--copyright + -->
+  <!--Injecting footer.html here-->
+  <footer></footer>
+
+  <!-- 3rd Party Libraries -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- App Scripts -->
+  <script src="./Scripts/home.js"></script>
+  <script src="./Scripts/about.js"></script>
+  <script src="./Scripts/contact.js"></script>
+  <script src="./Scripts/app.js"></script>
+</body>
+
+</html>
