@@ -5,20 +5,19 @@
     return Math.PI;
   }
 
-
-  ///Getting data from the 
+  ///Getting data from the
   function fetchData() {
     $.getJSON("../Scripts/core/json/paragraphs.json", function(data) {
       $.each(data, function(key, val) {
         $("#myDetails").append("<p>" + val + "</p>");
+        let objectjson = {};
+        objectson = JSON.parse(iabile.responseText);
       });
     });
   }
 
-
   ///Target content under AboutContent
   function AboutContent() {
-
     ///Initializing to check that the app works perfect
     console.log("%c Nice pictures? ", "font-weight:bold; font-size: 20px;");
 
