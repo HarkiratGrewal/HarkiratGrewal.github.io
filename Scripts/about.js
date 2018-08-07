@@ -5,6 +5,8 @@
     return Math.PI;
   }
 
+  let objectjson = {};
+
   ///Getting data from the
   function fetchData() {
     $.getJSON("../Scripts/core/json/paragraphs.json", function(data) {
@@ -14,8 +16,7 @@
         ///Adding to array the data from .json file
 
         //Array for storing data to .json file
-        let objectjson = {};
-        objectson = JSON.parse(data.responseText);
+        //objectson = JSON.parse(data.responseText);
       });
     });
   }
